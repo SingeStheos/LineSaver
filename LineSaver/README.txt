@@ -12,4 +12,4 @@ Step 3: Run program and read Caution. If you wish to cancel, type anything BUT "
 Step 4: Wait for it to finish and close a few unimportant windows. 
 
 The program will read a bunch of disk and will output each line individually to its own .txt file, named using hex.
-There is a max of 65535 that I know of. It may be incorrect but unless you're doing something stupid, 65k is more than enough.
+There is a max of 65536 that I know of. It may be incorrect but unless you're doing something stupid, 65k is more than enough.
