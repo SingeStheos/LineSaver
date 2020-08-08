@@ -3,8 +3,8 @@
 #CREDIT TO ORIGINAL AUTHOR, THEY ARE COOL AND YOU SHOULD TALK TO THEM!
 
 print("THIS PROGRAM WILL EXPORT EVERY LINE IN INPUT.TXT TO AN INDIVIDUAL FILE. USE WITH CAUTION")
-print("type 'i understand' and hit enter to proceed.")
-if input() != "i understand":
+print("PROCEED? Y/N")
+if input() != "y":
     exit()
 with open("input.txt", "r") as input:
     count = 0
