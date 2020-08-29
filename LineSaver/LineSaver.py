@@ -12,7 +12,7 @@ with open("input.txt", "r") as input:
         if not line:
             print("Empty or last line, Exiting.")
             break
-        with open(((4 - len("%X" % count)) * "0") + ("%X" % count) + ".txt", "w") as out:
+        with open(("%X" % count) + ".txt", "w") as out:
             out.write(line)
             out.close()
         count += 1
